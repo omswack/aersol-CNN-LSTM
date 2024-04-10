@@ -1,3 +1,11 @@
+# PM 2.5 Aerosol Particle Deep Learning Model 🌳
+Collaborated with peers in the USC Computer Science Department to produce a functional deep learning model to predict pollution across California. Used USC's [Center for Advanced Research Computing](https://www.carc.usc.edu/) cluster for data storage, preprocessing, and training.
+
+## Personal Contributions
+- Calculated and designed the CNN-LSTM approach by hand
+- developed and debugged the CNN-LSTM software
+- assisted in the parallel processing script for accessing the data
+
 ### File Structure:
 + Within here is are two files for the CNN-LSTM model that include the script to download all the data as well as the model itself. In addition, we have the code for the GNN in its own gnn folder minus the data. The data comes from NASA's website which holds geospatial simulations of particulate matter behavior. For this project, we processed and stored all of our data on USC's CARC cluster. 
 
